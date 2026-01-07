@@ -61,7 +61,6 @@ satellite-property-valuation/
 ├── notebooks/
 │ ├── preprocessing.ipynb
 │ ├── model_training.ipynb
-│ └── tabular_baseline.ipynb
 │
 ├── src/
 │ ├── dataset.py
