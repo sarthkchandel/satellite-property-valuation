@@ -59,6 +59,8 @@ satellite-property-valuation/
 │ └── ...
 │
 ├── notebooks/
+│ ├── preprocessing.ipynb
+│ ├── model_training.ipynb
 │ └── tabular_baseline.ipynb
 │
 ├── src/
@@ -105,6 +107,7 @@ The multimodal model was trained end-to-end on a small subset to validate the mu
 - End-to-end training confirms the feasibility of multimodal regression
 
 ---
+
 ## How to Run
 
 ### 1. Set up environment
@@ -118,13 +121,18 @@ pip install -r requirements.txt
 
 ### 2. Run baseline & multimodal pipeline
 
-Open and run the following notebook in VS Code:
+Open and run the notebooks in the following order in VS Code:
 
 ```
-notebooks/tabular_baseline.ipynb
+1. notebooks/preprocessing.ipynb
+2. notebooks/model_training.ipynb
 ```
+
+The original `tabular_baseline.ipynb` is retained as a reference
+baseline and development notebook.
 
 This notebook includes:
+
 - Tabular baseline model training
 - Multimodal dataset creation
 - Multimodal neural network definition
@@ -142,9 +150,10 @@ outputs/predictions.csv
 ```
 
 ### Required format
+
 ```
 id,predicted_price
-``` 
+```
 
 ## Notes
 
