@@ -65,11 +65,12 @@ satellite-property-valuation/
 │
 ├── src/
 │ ├── dataset.py
+│ ├── data_fetcher.py
 │ ├── model.py
 │ └── create_images.py
 │
 ├── outputs/
-│ └── predictions.csv
+│ └── 23411033_final.csv
 │
 └── venv/
 
@@ -146,7 +147,7 @@ This notebook includes:
 The final prediction file is generated at:
 
 ```
-outputs/predictions.csv
+outputs/23411033_final.csv
 ```
 
 ### Required format
