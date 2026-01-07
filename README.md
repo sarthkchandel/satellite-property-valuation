@@ -61,7 +61,9 @@ satellite-property-valuation/
 ├── notebooks/
 │ ├── preprocessing.ipynb
 │ ├── model_training.ipynb
+│ └── eda_plots.ipynb
 │
+│ 
 ├── src/
 │ ├── dataset.py
 │ ├── data_fetcher.py
