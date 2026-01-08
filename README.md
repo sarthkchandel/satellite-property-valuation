@@ -44,7 +44,7 @@ The project was developed as part of the **CDC × YHills Open Projects 2025–20
 ---
 
 ## Project Structure
-
+```
 satellite-property-valuation/
 │
 ├── README.md
@@ -74,7 +74,7 @@ satellite-property-valuation/
 │ └── 23411033_final.csv
 │
 └── venv/
-
+```
 ---
 
 ## Models
